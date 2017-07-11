@@ -1,4 +1,10 @@
 GIT
+  remote: https://github.com/jrhend/henderson_view_tool-2
+  revision: 22f74f5db218c87868417acadf3dfd65055c3dd5
+  specs:
+    henderson_view_tool (0.1.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: b156edfee2b9629ad4751ee2a118a04f824ef9eb
   specs:
@@ -195,6 +201,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
+  henderson_view_tool!
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
