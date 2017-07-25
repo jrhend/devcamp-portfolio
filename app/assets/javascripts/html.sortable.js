@@ -689,3 +689,10 @@ sortable.disable = function(sortableElement) {
 
 return sortable;
 }));
+sortable.disable = function(sortableElement) {
+  _disableSortable(sortableElement);
+};
+
+
+return sortable;
+}));
