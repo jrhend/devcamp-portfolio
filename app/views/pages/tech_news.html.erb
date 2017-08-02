@@ -4,11 +4,11 @@
   <div>
     <% @tweets.each do |tweet| %>
       <div class="col-md-6">
-       <div class="tech-news">
-        <div class="card">
-           <%= tweet %>
+        <div class="tech-news">
+          <div class="card">
+           <%= twitter_parser tweet %>
+          </div>
         </div>
-       </div>
       </div>
     <% end %>
   </div>
