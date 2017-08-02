@@ -157,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 65rem;
   }
 }
 
@@ -198,10 +198,20 @@ body {
    z-index: -100;
    -webkit-transform: translateX(-50%) translateY(-50%);
    transform: translateX(-50%) translateY(-50%);
-   background: image-url('home_bg.jpg') no-repeat;
+   background: image-url('lightning-storm-over-country-field_w1tdcuigr__PM') no-repeat;
    background-size: cover;
  }
  
  .app-footer {
    color: white;
+ }
+ 
+ .tech-news {
+   color: black;
+   margin: 20px;
+ } 
+ .tech-news a {
+   color: green;
+ }.tech-news > .card {
+   padding: 30px;
  }
