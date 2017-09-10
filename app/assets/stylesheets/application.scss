@@ -27,14 +27,25 @@ a:hover {
  * Base structure
  */
 
+
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -162,56 +173,78 @@ body {
 }
 
 /*
- * custom styles
+ * Custom Styles
  */
- 
- .card-block {
-   color: black;
-   text-align:left;
- }
- .auth-links a {
-   color: black;
- }
- .register-text{
-   text-align: right;
- }
- 
- .login > .card{
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
   width: 22rem;
-  margin:0 auto;
+  margin: 0 auto;
   float: none;
- }
- 
- .app-nav span{
-   margin-left: 15px;
-   margin-right: 15px;
- }
- 
- #background {
-   position: fixed;
-   top: 50%;
-   left: 50%;
-   min-width: 100%;
-   min-height: 100%;
-   width: auto;
-   height: auto;
-   z-index: -100;
-   -webkit-transform: translateX(-50%) translateY(-50%);
-   transform: translateX(-50%) translateY(-50%);
-   background: image-url('lightning-storm-over-country-field_w1tdcuigr__PM') no-repeat;
-   background-size: cover;
- }
- 
- .app-footer {
-   color: white;
- }
- 
- .tech-news {
-   color: black;
-   margin: 20px;
- } 
- .tech-news a {
-   color: green;
- }.tech-news > .card {
-   padding: 30px;
- }
+}
+
+.app-nav span {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home_bg.png') no-repeat;
+  background-size: cover;
+}
+
+.app-footer {
+  color: white;
+}
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news > .card {
+  padding: 30px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+.app-card-container {
+  color: black;
+  margin: 10%;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a{
+  color: blue;
+}
