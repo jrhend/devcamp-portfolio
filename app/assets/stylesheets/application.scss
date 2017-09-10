@@ -234,17 +234,23 @@ h6, .h6 {
 
 .app-card-container {
   color: black;
-  text-align: left;
+  margin: 5%;
+  margin-top: 15%;
 }
 
 .app-card-container > .card {
-  padding: 40px;
+  padding: 30px;
 }
 
 .profile-img {
   border: 1px solid grey;
 }
 
-.app-card-container a {
+.app-card-container a{
   color: blue;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
